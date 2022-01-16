@@ -1,15 +1,16 @@
-from plot import barplot
-import matplotlib.pyplot as plt
+# from plot import barplot
+# import matplotlib.pyplot as plt
 import random
-# Resultados aceptablemente rapidos para n <= 50 cuando se grafica y
-# n <= 10000 cuando solo se imprime
-size = 20
+# Recommended size for plotting is around 50
+size = 10000
 
 # Creates a random array of numbers
 array = [0] * size
 for i in range(size):
     array[i] = random.randint(0, int(size))
-    # print(i, " - ", array[i])
+    print(array[i])
+
+print('\n')
 
 # Sorts the array from smallest to largest
 for i in range(size):
@@ -20,9 +21,12 @@ for i in range(size):
             min = array[j]
             pos = j
         # uncomment to graph
-        barplot(array, i, j)
+        # barplot(array, i, j)
     array[i], array[pos] = array[pos], array[i]
 
 # Prints array
-# for i in range(size):
-#     print(i, " - ", array[i])
+for i in range(size):
+    print(array[i])
+
+# Keeps the graph open
+# plt.show(block=True)

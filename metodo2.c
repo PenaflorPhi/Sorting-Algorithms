@@ -5,14 +5,14 @@
 
 // Generates a random number to add to the array
 int rand_num(){
-  int x = (rand() % 10);
+  int x = rand() % SIZE;
   return x;
 }
 
 // Prints the array
 void print_array(int array[]){
   for (int i = 0; i < SIZE; ++i)
-    printf("%d ", array[i]);
+    printf("%d\n", array[i]);
   printf("\n");
 }
 
