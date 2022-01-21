@@ -2,6 +2,11 @@
 
 Implementacion de 4 algoritmos de ordenamiento en C :robot: y Python :snake:. Tres scripts diferentes en bash para compilar, correr y medir el tiempo de los tres, run.sh (Corre C y Python), runc.sh (Corre las implementaciones en C) y runpy.sh (Corre las implementaciones en Python).
 
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- QuickSort
+
 ## Funcionamiento
 - El programa genera un array de números aleatorios. 🏃
 - Ordena el arreglo de menor a mayor e imprime las listas a un archivo de texto. 📝
