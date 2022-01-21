@@ -1,9 +1,12 @@
-# Sorting Algorithms :computer::rocket:
+# Algoritmos de ordenamiento:computer::rocket:
 
-4 different sorting algorithms implemented in C :robot: and Python :snake:. 3 different scripts to compile, run and time all of them, run.sh(Runs both C and Python implementations), crun.sh (Runs C implementation) pyrun.sh (Runs Python implementation).
+Implementacion de 4 algoritmos de ordenamiento en C :robot: y Python :snake:. Tres scripts diferentes en bash para compilar, correr y medir el tiempo de los tres, run.sh (Corre C y Python), runc.sh (Corre las implementaciones en C) y runpy.sh (Corre las implementaciones en Python).
 
- - The programs generate an array of random numbers.
- - It sort the array and it outputs the unsorted and sorted list to a text file.
- - Prints to terminal the time elapsed.
- - run.sh and crun.sh assume GCC is installed, changing gcc to clang works.:wrench:
- - Plotting in Python is disabled by default.
+## Funcionamiento
+- El programa genera un array de números aleatorios.
+- Ordena el arreglo de menor a mayor e imprime las listas a un archivo de texto.
+- Imprime el tiempo transcurrido a la terminal.
+
+## Nota
+- run.sh y runc.sh utilizan GCC, se pueden modificar para utilizar clang utilizando las mismas banderas de compilación.
+- Graficar en Python es muy lento y esta desactivado por defecto, solamente es necesario quitar el comentario.
